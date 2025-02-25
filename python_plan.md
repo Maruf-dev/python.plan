@@ -1,3 +1,5 @@
+blind typing
+
 cmd command => (path) color , dir, help, cls, python -V,
  python --version, cd , exit ,ren (rename file )
 time => use only as a admin | shutdown /s => 1 min to shutdown (/r | /l ) | shutdown /a => to abort the shutting down
@@ -7,6 +9,8 @@ echo print(5*5) > demo.py (writes a code inside the file)
 del(delete files), date,| how to run in terminal python file;
 
 short cuts;
+
+%temp% / %appdata%
 
 .formats;
 
@@ -20,7 +24,17 @@ AttributeError;
 IndentationError;
 Logic error;
 
+<!-- KeyError: Occurs when trying to access a dictionary key that doesn't exist
+
+pythonCopymy_dict = {'a': 1}
+my_dict['b']  # KeyError: 'b'
+
+ZeroDivisionError: When attempting to divide by zero
+
+pythonCopy10 / 0  # ZeroDivisionError: division by zero -->
+
 # comment;
+""" multi line comment """
 
 ctrl + alt + n = run
 <!-- what is variable -->
@@ -37,8 +51,8 @@ $ = 3;
 & = 4;
 3 = 6;
 2myvar = "John";
-my-var = "John" #kebab-case;
 my var = "John";
+my-var = "John" #kebab-case;
 
 # odam = 'Jasur '
 # markaz = 'best'
@@ -95,6 +109,12 @@ print(b[-5:-2])
 
 a="string"
 print(a.index("r"))
+
+soz = input("Enter a string: ")
+
+index = int(input("Enter a number: "))
+
+print(soz[index])
 
 # ctrl + / > comment
 
