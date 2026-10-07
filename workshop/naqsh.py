@@ -1,6 +1,6 @@
 import turtle
 t = turtle.Turtle()
-t.color("white")
+t.color("black")
 t.width(1)
 t.speed(0)
 t.hideturtle()

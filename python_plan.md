@@ -1,12 +1,12 @@
 blind typing
 
-cmd command => (path) color , dir, help, cls, python -V,
- python --version, cd , exit ,ren (rename file )
-time => use only as a admin | shutdown /s => 1 min to shutdown (/r | /l ) | shutdown /a => to abort the shutting down
-code,mkdir (md) | rmdir = rd | (rmdir /s (delete with subdirectory)),|
+cmd command => (path) color , dir,  cls, python -V, python --version, cd , exit ,code, mkdir (md) | rd | (rmdir /s (delete with subdirectory)),|rename file.pe file.py|ren (rename file )
 type(reads the files), | type nul > index.html (creates file) |
 echo print(5*5) > demo.py (writes a code inside the file)
-del(delete files), date,| how to run in terminal python file;
+del(delete files), date,|
+time => use only as a admin | shutdown /s => 1 min to shutdown (/r | /l ) | shutdown /a => to abort the shutting down
+how to run in terminal python file;> python file.py
+/help
 
 short cuts;
 
@@ -18,10 +18,10 @@ errors❤;
 syntax error;
 name error;
 TypeError;
+IndentationError;
 ValueError;
 indexerror;
 AttributeError;
-IndentationError;
 Logic error;
 
 <!-- KeyError: Occurs when trying to access a dictionary key that doesn't exist
@@ -70,7 +70,15 @@ b = "zo'r";
 
 print(t +" " + g + " " + b);
 
-type() => func;
+# +	Addition	x + y
+# -	Subtraction	x - y
+# *	Multiplication	x * y
+# /	Division	x / y
+#  Modulus	x % y
+# **	Exponentiation	x ** y
+# //	Floor division	x // y
+
+
 input();
 name = input("name?");
 print(name, type(name));
@@ -127,7 +135,7 @@ a = "Hello, World!"
 print(a.lower())
 
 b = "hello, world!"
-print(b.title())
+print(b.title()) > H W
 
 b = "hello, world!"
 print(b.capitalize())
@@ -141,18 +149,29 @@ print(b.casefold()) => advanced version of lower
 a = "Hello, World!"
 print(a.strip())
 
+print(a.lstrip())
+print(a.rstrip())
+
 a = "Hello, World!"
 print(a.replace("H", "J"))
 
 b = "HELLOH, WORLD!"
-print(b.count("H"))
+print(b.count("O"))
 
 a = "Hello, World!"
-print(a.split(","))
+print(a.split(" "))
 
+% a = "Hello, World!"
+% l = list(a)
+% print(l)
 <!-- list -->
 
 # mylist = ["apple", "banana", "cherry"]
+
+a = ['boom','boom','boom','boom',]
+print(a)
+print(*a)
+
 
 # len() > Length > uzunlik
 # index
@@ -160,12 +179,12 @@ print(a.split(","))
 
 # in > bool > ichida
 
-#mutable & immutable
 # txt = "The best things in life are free!"
 # print("free" in txt)
 
+#mutable & immutable
 # thislist = ["apple", "banana", "cherry"]
-# thislist[1] = "blackcurrant"
+# thislist[0:2] = "blackcurrant"
 # print(thislist)
 
 # room[0:2] = ["mirror","chair"]
@@ -173,15 +192,21 @@ print(a.split(","))
 % list methods
 qop = ["apple", "banana", "cherry"]
 # qop.remove("olcha")
+# qop.pop()
 # qop.insert(0,"uzum")
 # qop.append("false")
 # quti.extend(qop)
-# qop.pop(3)
 # del qop[0]
 # del qop
 # qop.clear()
 # qop.sort()
 # qop.reverse()
+
+-_-_-_- tuple_-_-_-_-_-
+-Tuble listni elementlarini o'zgarimas ko'rinishi sifatida qabul qilish mmkn.
+
+tuple1 = (33,55,66)
+tuple1[0] = 88 => type error chunki tuple qismlarini o'zgartirib bo'lmaydi (as a str)
 
 
 <!-- # Boolean (bool) -->
@@ -200,17 +225,8 @@ qop = ["apple", "banana", "cherry"]
 # b = 171
 
 
-# +	Addition	x + y
-# -	Subtraction	x - y
-# *	Multiplication	x * y
-# /	Division	x / y
-#  Modulus	x % y
-# **	Exponentiation	x ** y
-# //	Floor division	x // y
-
-
 # nesting
-# if a > b: #true
+# if a == b: #true
 #     print("a katta b dan")
 # else: #false
 #     print("demak b katta yoki teng")
@@ -234,6 +250,7 @@ qop = ["apple", "banana", "cherry"]
 # for
 # while
 
+#break & continue
 
 
 <!-- function -->

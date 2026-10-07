@@ -1,5 +1,13 @@
-# qop = ['olma', 'anor', 'uzum', 'shaftoli', 'banan'] #list
+# login = input("login kiriting: ").lower()
+# password = int(input("parol kiriting: "))
 
-b = 'hello, world'
+# key_a = "teamit"
+# key_b = 1234
 
-print(b.split('o')) #split() methodi stringni listga aylantiradi
+# if login == key_a or password == key_b:
+#   print("xush kelibsiz")
+# else:
+#   print("login yoki parol xato")
+
+for i in "salom":
+  print("hello")
